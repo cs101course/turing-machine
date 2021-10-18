@@ -1,0 +1,173 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AppContainer {
+  text-align: center;
+}
+
+.toolbar button {
+  margin: 4px;
+  display: inline-block;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid rgb(92, 98, 130);
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+  transition: all 0.2s;
+  cursor: pointer;
+  background-color: rgb(220, 220, 238);
+}
+
+.button:hover {
+  color: #fff;
+  background-color: rgb(114, 123, 163);
+}
+
+.button:disabled {
+  background-color: rgb(166, 171, 189);
+  color: rgb(121, 121, 121);
+}
+.button:disabled:hover {
+  background-color: rgb(166, 171, 189);
+  color: rgb(121, 121, 121);
+}
+
+.TapeContainer {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+}
+
+.Tape {
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px #202 inset;
+}
+
+.TapeCell {
+  padding: 4px;
+  border-left: 1px solid black;
+}
+
+.TapeCell:last-child {
+  border-right: 1px solid black;
+}
+
+.TapeCell input {
+  width: 36px;
+  height: 36px;
+  padding: 3px;
+  line-height: 30px;
+  border: none;
+}
+
+.TapeHead {
+  margin-top: 4px;
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid black;
+}
+
+.MachineContainer {
+  display: inline-block;
+  text-align: left;
+}
+
+.Machine {
+  display: flex;
+  background: rgb(166, 171, 189);
+  width: 748px;
+}
+.Machine button {
+  margin: 8px;
+  margin-top: 12px;
+  height: 42px;
+}
+.State {
+  padding: 6px;
+  text-align: center;
+}
+.State input {
+  width: 48px;
+  height: 36px;
+  padding: 3px;
+  line-height: 30px;
+}
+
+.InstructionTable {
+  display: inline-block;
+  margin: 4px;
+  border: 1px solid black;
+}
+
+.InstructionTable table {
+  border-collapse: collapse;
+}
+
+.InstructionTable tr {
+  margin: 0;
+}
+
+.InstructionTable th {
+  margin: 0;
+  padding: 4px;
+  font-size: 10pt;
+}
+
+.InstructionTable td {
+  margin: 0;
+  padding: 4px;
+}
+
+.InstructionTable input {
+  width: 80px;
+}
+
+.InstructionTable .Separator {
+  border-left: 2px solid #ccc;
+}
+
+.TopHeader {
+  border-bottom: 1px solid #ccc;
+}
+
+.Instructions {
+  display: inline-block;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.Instructions .button {
+  margin: 4px;
+}
+
+.big-icon {
+  font-size: 24px;
+  margin-top: 4px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -2px;
+}
+
+.actionButtons {
+  text-align: right;
+}
